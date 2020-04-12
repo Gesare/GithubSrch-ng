@@ -6,13 +6,12 @@
     <p> We help you find people on github and also any repository with the click of a button</p>
     <hr>
   </div>
-    <form class="search">
+    <form>
         <div class="form-group">
   
             <label for="name">Name</label>
             <input type="text" class="form-control" id="username"  name="username" placeholder="Enter username or repository name." #username required>
         </div>
-   
         <button type="submit" class="btn btn-success" (click)='goToUrl(username.value)'>Search</button>
     </form>
   </div>
