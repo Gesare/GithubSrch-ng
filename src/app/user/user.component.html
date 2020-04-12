@@ -1,18 +1,19 @@
 <div class="container" style="display: flex; flex-direction: row; justify-content: space-between">
   <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-3">
             <p>{{user.login}}</p>
+            <hr>
             <img src="{{user.avatar_url}}" style=" border-radius: 50%">
-
+            <hr>
         </div>
-
+       <hr>
 
        <div class="col-md-5">
          <p>Username: {{user.login}}</p>
           {{user.login}} Github account:<p style="text-decoration: underline"> {{user.html_url}} </p>
          <p>Number of repositories: {{user.public_repos}}</p>
        </div>
-
+        <hr>
 
       <div class="col-md-6" style="margin-left: -10%">
           <div class="panel-body" *ngFor="let repo of repos">
