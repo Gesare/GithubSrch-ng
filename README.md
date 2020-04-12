@@ -1,5 +1,16 @@
 # Githubsearch
 
+### This is an application that allows an individual to search for github users and repositories.
+
+
+
+# By Gesare Ayienda Ombati
+### The link is :
+
+## Description
+This project is a web application that one an use to search for github users and repositories.The application lets the person search and brigs the persons details for example,the username,amount of repositories they have and the repositories they have.The person can also search for repositories.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
 ## Development server
