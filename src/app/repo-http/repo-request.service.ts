@@ -11,6 +11,7 @@ export class RepoRequestService {
   repos:Repositories[];
   
   constructor( private http:HttpClient) { 
+    // this.repos=new Repository("","",new Date());
     this.repos=[];
   }
   repoRequest(username){
